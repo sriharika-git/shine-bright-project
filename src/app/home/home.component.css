@@ -1,0 +1,410 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    text-align: justify;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+
+.number{
+    background: #FFFFFF;
+}
+
+.shine{
+    width: 162px;
+    height: 31px;
+    font-family: Lora;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 30.72px;
+    text-align: left;
+    background: linear-gradient(90deg, #FF0F7B 0%, #F89B29 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+.top_header{
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    color: #31313B;
+    margin-bottom: 0px;
+}
+.navbar{
+    margin-top: 48px;
+    background:#FFFFFF;
+    padding-top: 15px;
+}
+.nav-item {
+    text-align: right;
+    padding-left: 40px;
+}
+.active{
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.92px;
+    text-align: left;
+    background: linear-gradient(90deg, #FF0F7B 0%, #F89B29 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    
+}
+.nav-link{
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.92px;
+    text-align: left;
+    color: #31313B;
+
+    
+}
+
+.custom-toggler {
+    border-color: #FF0F7B; 
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FF0F7B' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.items1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:425px){
+    .header_main img{
+        display: none;
+    }
+    .top_header{
+        display:none;
+    }
+}
+
+@media (max-width:425px){
+    .navbar{
+        margin:0;
+    }
+    
+}
+
+
+/* About us */
+
+#about .para1{
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    background: linear-gradient(90deg, #FF0F7B, #F89B29); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    
+}
+#about p{
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8D8D8D;
+    text-align: center;
+
+}
+.simg .img1{
+    width: 378px;
+}
+@media (max-width: 320px){
+    .simg .img1{
+        width: 295px;
+        text-align: center;
+    }
+}
+
+.simg .img2{
+    width: 187px;
+}
+/* @media (max-width: 320px){
+    .simg .img2{
+        display: none;    
+    }
+} */
+@media (max-width:425px){
+    .simg .img2{
+        display: none;
+       
+    }
+}
+
+/* side para */
+
+.heading{
+
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(90deg, #FF0F7B, #F89B29); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info .head{
+
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 500;
+    color: #31313B;
+}
+.info .pinfo{
+
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8D8D8D;
+
+}
+
+/* promises */
+.container-fluid{
+    background: linear-gradient(90deg, #FF0F7B 0%, #F89B29 100%);
+}
+
+.scrollable-container {
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    gap: 20px; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.assured {
+    display: inline-block;
+    white-space: normal;
+    text-align: center; 
+    flex-shrink: 0; 
+}
+.assured_para {
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.assured_container{
+    margin-top: 100px;
+}
+/* Media query for screen width 768px or less */
+@media (max-width: 1024px) {
+    .scrollable-container {
+        overflow-x: auto; 
+    }
+}
+/* Media query for screen width 1440px or more */
+@media (min-width: 1440px) {
+    .scrollable-container {
+        justify-content: space-between; 
+    }
+
+    .assured {
+        flex: 1 1 auto; 
+        max-width: 20%; 
+    }
+}
+
+
+/* products */
+
+#Products .para1{
+    font-family: Lora;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FF0F7B, #F89B29); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+#Products p{
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8D8D8D;
+    text-align: center;
+}
+
+/* blockimages */
+
+.products-header{
+    margin-top: 6%;
+}
+.products-content{
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+
+/* contact */
+
+.contact{
+    font-family: Lora;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FF0F7B, #F89B29); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.con2{
+    font-family: Poppins;
+    font-weight: 400;
+    text-align: center;
+    color: #8D8D8D;
+    font-size: 20px;
+
+}
+
+.calimg img{
+    width: 40px;
+    height: 40px; 
+    
+}
+.ph{
+    font-family: Lora;
+    font-weight: 500;
+    color: #31313B;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.para1{
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 400;
+    color: #8D8D8D;
+
+}
+.para2{
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 400;
+    color: #8D8D8D;
+}
+
+.mailimg img{
+    width: 40px;
+    height: 40px;  
+}
+.mailpara{
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: #8D8D8D;
+
+}
+
+.whatsappimg img{
+    width: 40px;
+    height: 40px;   
+}
+.wp{
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: #8D8D8D;
+
+}
+.locimg img{
+    width: 40px;
+    height: 40px;
+}
+.loch{
+    font-family: Lora;
+    font-weight: 500;    
+}
+a{
+    text-decoration: none;
+}
+.locp{
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 400; 
+    color: #8D8D8D;  
+}
+
+/* footer */
+
+#footer{
+    background: linear-gradient(180deg, #FFFFFF, #e879ab);
+}
+
+.name{
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FF0F7B, #F89B29); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+.footerp{
+    color: #31313B;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 400;
+    
+}
+.ficons{
+    color: #31313B;
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+.ficons img{
+    /* width: 24px; */
+    height: 24px;
+    
+}
+.payp{
+    font-family: Lora;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #31313B;
+    
+}
+.weimg img{
+    width:40px;
+    height:11px; 
+    margin: 0 5px 0 5px;
+    
+}
+.copyright{
+    font-family: Lora;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #31313B;
+}
+
+
+
